@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Bootstrap 5 Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		  <link rel="stylesheet" href="styl.css">  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <link href="https://icofont.com/icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="stye.css">
+      <style>
+        img{
+          float: right;
+        }             
+      </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark  shadow" style="font-style: italic; border-radius: 15px;">
+      <div class="container shadow" style="background-color: antiquewhite; width: fit-content; width: 1400px; border-radius: 15px;">
+        <a class="navbar-brand" href="#"><span class="h3 fw-bold" style="color: black;">Success Of Learning ....... :)</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: rgb(12, 12, 12);"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold text-white">
+              <li class="nav-item">
+                <a class="nav-link text-black">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="aboutMe.html">aboutMe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="Academic.html">Academic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="Skills.html">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="socialMediaSites.html">socialMediaSites</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="aboutBCA.html">aboutBCA</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+    <div class="container p-5 mt-5" style="text-align: center;">
+      <div class="row" id="abt">
+        
+        <div class="col p-5">
+          <h1 class="display">Information about myself</h1><br>
+          <p> Hello Everyone!,   I am Tejeshwari G D.<br> Welcome to my website.<box-icon name='smile'></box-icon><br>
+              In this website you all are know about my personal informations</p>
+              <div class="btn-group">
+                <a class="btn btn-dark item animate-element btn-shadow ">Let's see!</a>
+             </div>
+              <style>
+                .btn-group{
+                  animation: wiggle 2s linear infinite;
+                }
+                /* Keyframes */
+                @keyframes wiggle {
+                  0%, 7% {
+                    transform: rotateZ(0);
+                  }
+                  15% {
+                    transform: rotateZ(-15deg);
+                  }
+                  20% {
+                    transform: rotateZ(10deg);
+                  }
+                  25% {
+                    transform: rotateZ(-10deg);
+                  }
+                  30% {
+                    transform: rotateZ(6deg);
+                  }
+                  35% {
+                    transform: rotateZ(-4deg);
+                  }
+                  40%, 100% {
+                    transform: rotateZ(0);
+                  }
+                }
+                body {
+                  background: #000;
+                }
+                .btn-group {
+                  position: sticky;
+                  left: calc(40% - 3em);
+                  top: calc(50% - 2em);
+                  height: 3em;
+                  margin:150px;
+                  width: 6em;
+                  height: 4em;
+                  background: #444;
+                  background: linear-gradient(top, #555, #333);
+                  border: none;
+                  border-top: 5px solid orange;
+                  border-radius: 0 0 0.2em 0.2em;
+                  color: #fff;
+                  font-family: Helvetica, Arial, Sans-serif;
+                  font-size: 1em;
+                  transform-origin: 50% 5em;
+                }
+                body{
+                  background-color:lightgray;
+                }
+                @keyframes slideInLeft {
+                  0% {
+                    transform: translateX(-100%);
+                  }
+                  100% {
+                    transform: translateX(0);
+                  }
+                }
+                .navbar {
+                  animation: 1s ease-out 0s 1 slideInLeft;
+                  background: #666;
+                  padding: 10px;
+                  animation-duration: 5s;
+                }
+                body {
+                  margin: 0;
+                }
+                a {
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-right: 10px;
+                }
+              </style>    
+        </div>
+      </div>     
+    </div>    
+  </body>
+</html>
